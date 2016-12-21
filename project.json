@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "0.1.0"
+        },
+        "DevZH.UI": {
+          "version": "1.0.0-alpha-2685-pre0"
+        }
+        // "gtk-sharp3": {
+        //   "version": "3.22.0"
+        // }
+      },
+      "imports": "dnxcore50"
+    }
+  },
+  "runtimes": {
+      "win10-x64": {},
+      "ubuntu.16.04-x64": {}
+  }
+}
